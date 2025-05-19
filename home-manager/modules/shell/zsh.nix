@@ -22,7 +22,7 @@
       theme = "robbyrussell";
     };
 
-    initExtra = ''
+    initContent = ''
       # Configure history settings
       HISTFILE=~/.zsh_history
       HISTSIZE=10000
