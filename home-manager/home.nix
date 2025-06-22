@@ -43,8 +43,8 @@
 
   # TODO: Set your username
   home = {
-    username = "your-name"; # FIXME replace with your username
-    homeDirectory = "/home/your-name"; # FIXME replace with your home directory`
+    username = "xushc"; # FIXME replace with your username
+    homeDirectory = "/home/xushc"; # FIXME replace with your home directory`
   };
 
   # Add stuff for your user as you see fit:

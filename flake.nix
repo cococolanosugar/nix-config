@@ -12,7 +12,7 @@
     # GoFrame
     gf.url = "github:cococolanosugar/gf/feature/nix-support";
     # Go-Zero
-    goctl.url = "github:cococolanosugar/go-zero/feature/nix-support";
+    # goctl.url = "github:cococolanosugar/go-zero/feature/nix-support";
   };
 
   outputs = {
@@ -38,7 +38,7 @@
     # Available through 'home-manager --flake .#your-username@your-hostname'
     homeConfigurations = {
       # FIXME replace with your username@hostname
-      "your-name@your-hostname" = home-manager.lib.homeManagerConfiguration {
+      "xushc@DESKTOP-TLFHNBQ" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
         extraSpecialArgs = {inherit inputs outputs;};
         # > Our main home-manager configuration file <

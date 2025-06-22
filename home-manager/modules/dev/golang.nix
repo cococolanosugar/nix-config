@@ -15,9 +15,10 @@
     gopls      # Go language server
     go-tools   # Go tools collection
 
-    #gf        # goframe cli tool
+    # gf        # goframe cli tool
     inputs.gf.packages.${pkgs.system}.default
-    #goctl     # go-zero cli tool
-    inputs.goctl.packages.${pkgs.system}.default
+    # goctl     # go-zero cli tool
+    # inputs.goctl.packages.${pkgs.system}.default
+    goctl
   ];
 }
