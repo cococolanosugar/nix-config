@@ -7,8 +7,8 @@
   oh-my-tmux = pkgs.fetchFromGitHub {
     owner = "gpakosz";
     repo = ".tmux";
-    rev = "master";
-    sha256 = "sha256-2mdbOKCiwkr3FgjjyThezL+VVf5nm3+04idMETBLeao=";
+    rev = "e25f45ed3df5a83339fcfd99d256b0d1958d6466";
+    sha256 = "sha256-X+5iFLsI/MUxO6Axx8RWZlsuVVAl5K8BTkqlUlHmj68=";
   };
 in {
   programs.tmux = {

@@ -12,5 +12,6 @@
     ./devbox.nix
     ./uv.nix
     ./fnm.nix
+    ./k9s.nix
   ];
 }

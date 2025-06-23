@@ -8,11 +8,8 @@
     mihomo
   ];
 
-  # Ensure configuration directory exists
+  # Ensure ~/.config/mihomo directory exists
   home.file = {
-    ".config/mihomo" = {
-      recursive = true;
-      source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/.config/mihomo";
-    };
+    ".config/mihomo/.keep".text = "";
   };
 }

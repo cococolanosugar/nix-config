@@ -3,7 +3,7 @@ version: '3'
 vars:
   CONFIG_DIR: '~/.config/mihomo'
   CONFIG_FILE: '{{.CONFIG_DIR}}/config.yaml'
-  CONFIG_URL: 'https://patriot.ninja//index.php?m=wray&token=SP3t2LG3xJRSXonWSx86WvzmLaS1a7UTgx4KdJd3W4I75YghusfE9zbXadfsCaJbCFWu74CyREk%3D&clash=on'
+  CONFIG_URL: '{{default "http://your-domain.com/your-config" .CLASH_CONFIG_URL}}'
 
 tasks:
   update-mihomo-config:
