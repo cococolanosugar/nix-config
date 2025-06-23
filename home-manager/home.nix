@@ -5,6 +5,8 @@
   lib,
   config,
   pkgs,
+  username,
+  hostname,
   ...
 }: {
   # You can import other home-manager modules here
@@ -43,8 +45,8 @@
 
   # TODO: Set your username
   home = {
-    username = "xushc"; # FIXME replace with your username
-    homeDirectory = "/home/xushc"; # FIXME replace with your home directory`
+    username = username; # FIXME replace with your username
+    homeDirectory = "/home/${username}"; # FIXME replace with your home directory`
   };
 
   # Add stuff for your user as you see fit:
